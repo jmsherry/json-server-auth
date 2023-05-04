@@ -1,6 +1,6 @@
 import { Router, Handler } from 'express'
 import * as jwt from 'jsonwebtoken'
-import * as jsonServer from 'json-server'
+import * as jsonServer from 'jump-json-server'
 import { stringify } from 'querystring'
 import { JWT_SECRET_KEY } from './constants'
 import { bodyParsingHandler, errorHandler, goNext } from './shared-middlewares'

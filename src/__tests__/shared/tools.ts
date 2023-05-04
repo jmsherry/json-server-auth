@@ -1,5 +1,5 @@
 import { Application } from 'express'
-import * as jsonServer from 'json-server'
+import * as jsonServer from 'jump-json-server'
 import * as jsonServerAuth from '../..'
 
 export const USER = { email: 'jeremy@mail.com', password: '123456', name: 'Jeremy' }

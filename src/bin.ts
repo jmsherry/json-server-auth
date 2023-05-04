@@ -6,8 +6,8 @@ import { readFileSync, writeFileSync } from 'fs'
 import { join, basename } from 'path'
 import { parseGuardsRules } from './guards'
 
-import run = require('json-server/lib/cli/run')
-import jsonServerPkg = require('json-server/package.json')
+import run = require('jump-json-server/lib/cli/run')
+import jsonServerPkg = require('jump-json-server/package.json')
 
 // Get the json-server cli module and add our middlewares.
 // It's inside a closure in the json-server source code, so we unfortunately have to duplicate it.

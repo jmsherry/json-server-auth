@@ -1,8 +1,8 @@
 {
-	"name": "json-server-auth",
-	"description": "Authentication middleware for JSON Server",
+	"name": "jump-json-server-auth",
+	"description": "Authentication middleware for JSON Server (Fork of @jeremyben's project)",
 	"version": "2.1.0",
-	"author": "Jeremy Bensimon",
+	"author": "James Sherry",
 	"repository": "github:jeremyben/json-server-auth",
 	"license": "MIT",
 	"main": "dist/index.js",
@@ -26,7 +26,7 @@
 		"release": "standard-version"
 	},
 	"peerDependencies": {
-		"json-server": "*"
+		"jump-json-server": "*"
 	},
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
@@ -41,7 +41,7 @@
 		"@types/supertest": "^2.0.11",
 		"@types/yargs": "^16.0.0",
 		"jest": "^27.0.6",
-		"json-server": "^0.16.3",
+		"jump-json-server": "^0.17.4",
 		"rimraf": "^3.0.2",
 		"standard-version": "^9.3.1",
 		"supertest": "^6.1.4",

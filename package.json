@@ -3,12 +3,12 @@
 	"description": "Authentication middleware for JSON Server (Fork of @jeremyben's project)",
 	"version": "2.1.0",
 	"author": "James Sherry",
-	"repository": "github:jeremyben/json-server-auth",
+	"repository": "github:jmsherry/json-server-auth",
 	"license": "MIT",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"bin": {
-		"json-server-auth": "./dist/bin.js"
+		"jump-json-server-auth": "./dist/bin.js"
 	},
 	"files": [
 		"dist"

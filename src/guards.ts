@@ -211,6 +211,7 @@ export default Router()
  * @example
  * { 'users': 600 } => { '/users*': '/600/users$1' }
  */
+// type routes = { [rule: string]: string; }
 export function parseGuardsRules(resourceGuardMap: { [resource: string]: any }) {
 	return Object.entries(resourceGuardMap).reduce((routes, [resource, guard]) => {
 		const isGuard = /^[640]{3}$/m.test(String(guard))
@@ -223,7 +224,7 @@ export function parseGuardsRules(resourceGuardMap: { [resource: string]: any }) 
 		}
 
 		return routes
-	}, {} as Parameters<typeof jsonServer.rewriter>[0])
+	}, {})
 }
 
 /**
